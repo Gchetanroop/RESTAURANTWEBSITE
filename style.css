@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root{
-    --pink:#ff03a7;
+    --pink:#1d1414;
 }
 
 
@@ -29,7 +29,7 @@ html{
 }
 
 body{
-    background: rgb(248, 248, 248);
+    background: rgb(2, 248, 244);
 }
 
 header{
@@ -41,7 +41,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: rgb(59, 35, 35);
     padding: 2rem 9%;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1) ;
 }
@@ -49,7 +49,7 @@ header{
 header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
-    color: #666;
+    color: rgb(220, 206, 206);
 }
 
 header .logo i{
@@ -60,17 +60,17 @@ header .logo i{
 header .navbar a{
     font-size: 2rem;
     margin-left: 2rem;
-    color: #666;
+    color: rgb(104, 210, 47);
 }
 
 header .navbar a:hover{
-    color: var(--pink);
+    color: var(--blue);
 }
 
 #menu-bar{
     font-size: 3rem;
     cursor: pointer;
-    color: #666;
+    color: rgb(102, 102, 102);
     border: 0.5rem solid #666;
     border-radius: 0.1rem;
     padding: .5rem 1.5rem;
@@ -156,10 +156,10 @@ section{
 
 @keyframes float{
     0%, 100%{
-        transform: translateY(0rem);
+        transform: translateX(0rem);
     }
     50%{
-        transform: translateY(3rem);
+        transform: translateX(3rem);
     }
 }
 
@@ -367,7 +367,7 @@ section{
     border-radius: .5rem;
     flex:1 1 30rem;
     background:#333;
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
   
   .review .box-container .box img{
@@ -375,7 +375,8 @@ section{
     width:12rem;
     border-radius: 50%;
     border:1rem solid #fff;
-    margin-top: -8rem;
+    margin-top: -1rem;
+    margin-bottom: -2rem; 
     object-fit: cover;
   }
   
